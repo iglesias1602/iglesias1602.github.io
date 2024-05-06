@@ -252,51 +252,6 @@ const skills = {
         },
       ],
     },*/
-    {
-      title: "Data Science & AI",
-      fileName: "SysAdminImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
-      ],
-    },
   ],
 };
 
@@ -513,9 +468,28 @@ const activities = {
     {
       title: "Cyber Security Challenge Belgium",
       subtitle: "- Capture The Flag",
-      logo_path: "linkedin-logo.png",
-      activities_link:
-        "https://www.linkedin.com/learning/certificates/90fa5a6f71b5d4663c16c8dac8a442e155fe7c436ad24908fe018c1cbe2a95c9?u=2150804",
+      text:
+        "This is an activity that took place during 2023. This activity consisted on a Capture The Flag competition where participants had to solve a series of challenges related to cyber security. The challenges were divided into different categories such as web security, cryptography, reverse engineering, etc.",
+      logo_path: "logo-cscbe.svg",
+      images: ["activities/csc-1.png", "activities/csc-3.png"],
+      alt_name: "CyberSecurity Challenge Belgium",
+      color_code: "#0075B4",
+    },
+    {
+      title: "Capture The Flag EPHEC",
+      subtitle: "- Capture The Flag",
+      text: "Capture The Flag EPHEC",
+      logo_path: "logo-cscbe.svg",
+      images: ["aarhus-logo.png", "codeInLogo.png", "github_logo.png"],
+      alt_name: "CyberSecurity Challenge Belgium",
+      color_code: "#0075B4",
+    },
+    {
+      title: "Capture The Flag EPHEC",
+      subtitle: "- Capture The Flag",
+      text: "Capture The Flag EPHEC",
+      logo_path: "logo-cscbe.svg",
+      images: ["aarhus-logo.png", "codeInLogo.png", "github_logo.png"],
       alt_name: "CyberSecurity Challenge Belgium",
       color_code: "#0075B4",
     },

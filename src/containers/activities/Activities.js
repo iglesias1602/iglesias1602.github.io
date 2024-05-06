@@ -6,7 +6,7 @@ import ActivitiesCard from "../../components/activitiesCard/ActivitiesCard";
 
 class Activities extends Component {
   render() {
-    const theme = this.props.theme;
+    const { theme, openModal } = this.props; // Receive openModal as a prop
     return (
       <div className="main" id="acts">
         <div className="acts-header-div">
@@ -17,9 +17,14 @@ class Activities extends Component {
           </Fade>
         </div>
         <div className="acts-body-div">
-          {activities.activities.map((acts) => {
-            return <ActivitiesCard activities={acts} theme={theme} />;
-          })}
+          {activities.activities.map((act, index) => (
+            <ActivitiesCard
+              key={index}
+              activity={act}
+              theme={theme}
+              openModal={openModal}
+            />
+          ))}
         </div>
       </div>
     );

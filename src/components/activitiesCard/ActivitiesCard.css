@@ -8,7 +8,8 @@
   border-radius: 5px;
   box-shadow: 5px 5px 5px #d9dbdf;
   margin-bottom: 30px;
-  flex: 0 0 30%;
+  flex: 0 0 48%;
+  overflow: hidden; /* Keeps content within the bounds of the border-radius */
 }
 
 .acts-header {
@@ -16,13 +17,14 @@
   border-radius: 5px 5px 0px 0px;
 }
 
-.logo_img {
+.acts_logo_img {
   margin: 3px;
-  width: auto;
+  width: 80%;
   height: 100px;
 }
 
 .acts-body {
+  flex: 1; /* Allows the body to expand as needed */
   margin: 0px;
 }
 
@@ -37,6 +39,16 @@
   font-size: 18px;
   color: #808080;
   margin: 10px;
+}
+
+.acts-body-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px; /* Adds space between the subtitle and the text */
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+  text-align-last: center;
 }
 
 .content {

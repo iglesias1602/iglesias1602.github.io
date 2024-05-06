@@ -1,48 +1,53 @@
 import React, { Component } from "react";
 import "./ActivitiesCard.css";
 import { Fade } from "react-reveal";
+import ImageGalleryModal from "../imageGalleryModal/ImageGalleryModal"; // Adjust the import path as necessary
 
 class ActivitiesCard extends Component {
+  handleClick = () => {
+    const { activity, openModal } = this.props;
+    openModal(activity.images); // Assuming activity.images is the array of image paths
+  };
+
   render() {
-    const activities = this.props.activities;
-    const theme = this.props.theme;
+    const { activity, theme } = this.props;
     return (
       <Fade bottom duration={2000} distance="20px">
-        <div className="acts-card">
+        <div className="acts-card" onClick={this.handleClick}>
           <div className="content">
-            <a
-              href={activities.activities_link}
-              target="_blank"
-              rel="noopener noreferrer"
+            <div className="content-overlay"></div>
+            <div
+              className="acts-header"
+              style={{ backgroundColor: activity.color_code }}
             >
-              <div className="content-overlay"></div>
-              <div
-                className="acts-header"
-                style={{ backgroundColor: activities.color_code }}
-              >
-                <img
-                  className="logo_img"
-                  src={require(`../../assests/images/${activities.logo_path}`)}
-                  alt={activities.alt_name}
-                />
-              </div>
-              <div className="content-details fadeIn-top">
-                <h3 className="content-title" style={{ color: theme.body }}>
-                  Activities
-                </h3>
-              </div>
-            </a>
+              <img
+                className="acts_logo_img"
+                src={require(`../../assests/images/${activity.logo_path}`)}
+                alt={activity.alt_name}
+              />
+            </div>
+            <div className="content-details fadeIn-top">
+              <h3 className="content-title" style={{ color: theme.body }}>
+                Activities
+              </h3>
+            </div>
           </div>
           <div className="acts-body">
             <h2 className="acts-body-title" style={{ color: theme.text }}>
-              {activities.title}
+              {activity.title}
             </h2>
             <h3
               className="acts-body-subtitle"
               style={{ color: theme.secondaryText }}
             >
-              {activities.subtitle}
+              {activity.subtitle}
             </h3>
+            <p
+              className="acts-body-text"
+              style={{ color: theme.secondaryText }}
+            >
+              {activity.text}
+            </p>
           </div>
         </div>
       </Fade>
