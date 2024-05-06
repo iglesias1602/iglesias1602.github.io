@@ -24,9 +24,9 @@ const greeting = {
   nickname: "iglesias1602",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+  resumeLink: "https://drive.proton.me/urls/VK27JXGECM#ZcbLLUkcLA03",
+  portfolio_repository:
+    "https://github.com/iglesias1602/iglesias1602.github.io",
   githubProfile: "https://github.com/iglesias1602",
 };
 
@@ -508,6 +508,20 @@ const certifications = {
   ],
 };
 
+const activities = {
+  activities: [
+    {
+      title: "Cyber Security Challenge Belgium",
+      subtitle: "- Capture The Flag",
+      logo_path: "linkedin-logo.png",
+      activities_link:
+        "https://www.linkedin.com/learning/certificates/90fa5a6f71b5d4663c16c8dac8a442e155fe7c436ad24908fe018c1cbe2a95c9?u=2150804",
+      alt_name: "CyberSecurity Challenge Belgium",
+      color_code: "#0075B4",
+    },
+  ],
+};
+
 // Experience Page
 const experience = {
   title: "Experience",
@@ -600,13 +614,13 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "During the course of my studies I created and contributed to a number of projects. Here are a few of them.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
   title: "Publications",
-  description: "Some of my published Articles, Blogs and Research.",
+  description: "",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -642,7 +656,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "profile-picture-logo.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "You can contact me in my social media using the following links or send me an email. I'm always looking forward to new opportunities and collaborations.",
   },
   blogSection: {
     title: "Blogs",
@@ -677,6 +691,7 @@ export {
   competitiveSites,
   degrees,
   certifications,
+  activities,
   experience,
   projectsHeader,
   publicationsHeader,

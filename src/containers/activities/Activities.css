@@ -1,0 +1,28 @@
+.acts-header {
+  font-size: 40px;
+  line-height: 1.1;
+  font-family: "Google Sans Regular";
+  text-align: center;
+}
+
+.acts-body-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1380px) {
+  .acts-header {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .acts-body-div {
+    flex-direction: column;
+  }
+
+  .acts-header {
+    font-size: 30px;
+  }
+}
