@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./ActivitiesCard.css";
 import { Fade } from "react-reveal";
-import ImageGalleryModal from "../imageGalleryModal/ImageGalleryModal"; // Adjust the import path as necessary
 
 class ActivitiesCard extends Component {
   handleClick = () => {
