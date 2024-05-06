@@ -36,7 +36,7 @@ function ImageGalleryModal({ isOpen, images, handleClose, theme }) {
     <div className={`modal-backdrop ${isOpen ? "show" : ""}`}>
       <img
         src={require(`../../assests/images/${images[current]}`)}
-        alt="Gallery Image"
+        alt="Gallery"
         className="modal-content"
       />
       <div className="modal-buttons">
