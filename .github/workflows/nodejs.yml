@@ -30,10 +30,10 @@ jobs:
     - run: npm run build --if-present
     
     - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4.0.0
-        with:
-          github_token: ${{ secrets.USER_TOKEN }}
-          publish_dir: ./build
+      uses: peaceiris/actions-gh-pages@v4.0.0
+      with:
+        github_token: ${{ secrets.USER_TOKEN }}
+        publish_dir: ./build
     - run: npm test
       env:
         CI: true
