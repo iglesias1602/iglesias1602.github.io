@@ -1,8 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.be4fe321.css",
-    "main.js": "/static/js/main.77a747da.js",
+    "main.js": "/static/js/main.aab87c79.js",
+    "static/media/lan-1.png": "/static/media/lan-1.91ead72f17a75336a156.png",
+    "static/media/lan-3.png": "/static/media/lan-3.39b439cdb8be4f96f616.png",
     "static/media/portfolio.gif": "/static/media/portfolio.ed6c89f1485f23014ebd.gif",
+    "static/media/lan-2.jpg": "/static/media/lan-2.78244b637b153238a601.jpg",
     "static/media/profile-picture-logo.png": "/static/media/profile-picture-logo.4d3adbd73f4ea28b10cd.png",
     "static/media/aarhus-logo.png": "/static/media/aarhus-logo.2a250cbafaffafef4fe8.png",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
@@ -85,10 +88,10 @@
     "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
     "main.be4fe321.css.map": "/static/css/main.be4fe321.css.map",
-    "main.77a747da.js.map": "/static/js/main.77a747da.js.map"
+    "main.aab87c79.js.map": "/static/js/main.aab87c79.js.map"
   },
   "entrypoints": [
     "static/css/main.be4fe321.css",
-    "static/js/main.77a747da.js"
+    "static/js/main.aab87c79.js"
   ]
 }
