@@ -12,7 +12,7 @@ class Activities extends Component {
         <div className="acts-header-div">
           <Fade bottom duration={2000} distance="20px">
             <h1 className="acts-header" style={{ color: theme.text }}>
-              Activities
+              Portfolio of activities
             </h1>
           </Fade>
         </div>

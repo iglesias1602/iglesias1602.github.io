@@ -1,4 +1,4 @@
-.acts-card {
+.act-card {
   width: 30%;
   display: inline-block;
   justify-content: center;
@@ -12,36 +12,37 @@
   overflow: hidden; /* Keeps content within the bounds of the border-radius */
 }
 
-.acts-header {
+.act-header {
   margin: 0px;
   border-radius: 5px 5px 0px 0px;
 }
 
-.acts_logo_img {
-  margin: 3px;
-  width: 80%;
+.act_logo_img {
+  margin: 3px 3px;
+  object-fit: contain;
+  max-width: 80%;
   height: 100px;
 }
 
-.acts-body {
+.act-body {
   flex: 1; /* Allows the body to expand as needed */
   margin: 0px;
 }
 
-.acts-body-title {
+.act-body-title {
   font-family: "Google Sans Regular";
   font-size: 20px;
   margin: 10px;
 }
 
-.acts-body-subtitle {
+.act-body-subtitle {
   font-family: "Google Sans Regular";
   font-size: 18px;
   color: #808080;
   margin: 10px;
 }
 
-.acts-body-text {
+.act-body-text {
   font-size: 16px;
   line-height: 1.5;
   margin-top: 10px; /* Adds space between the subtitle and the text */
@@ -117,7 +118,7 @@
 }
 
 @media (max-width: 768px) {
-  .acts-card {
+  .act-card {
     width: 100%;
   }
 }

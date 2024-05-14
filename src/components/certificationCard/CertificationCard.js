@@ -43,6 +43,12 @@ class CertificationCard extends Component {
             >
               {certificate.subtitle}
             </h3>
+            <h2
+              className="cert-body-subtitle"
+              style={{ color: theme.secondaryText }}
+            >
+              {certificate.text}
+            </h2>
           </div>
         </div>
       </Fade>

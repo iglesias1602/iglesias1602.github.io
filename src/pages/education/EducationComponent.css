@@ -45,6 +45,11 @@
   text-align: center;
 }
 
+.body-no-scroll {
+  overflow: hidden;
+  height: 100%;
+}
+
 @media (max-width: 1380px) {
   .heading-text {
     font-size: 50px;

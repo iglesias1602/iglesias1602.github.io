@@ -314,7 +314,7 @@ const degrees = {
     {
       title: "Information Technologies",
       subtitle: "B.Tech. in IT",
-      logo_path: "ephec-logo.png",
+      logo_path: "logos/ephec-logo.png",
       alt_name: "EPHEC",
       duration: "2021 - 2024",
       descriptions: [
@@ -337,7 +337,7 @@ const degrees = {
     {
       title: "Business Academy Aarhus",
       subtitle: "React Native Summer School",
-      logo_path: "aarhus-logo.png",
+      logo_path: "logos/aarhus-logo.png",
       alt_name: "Business Academy Aarhus",
       duration: "Jun 2023 - Jul 2023",
       descriptions: [
@@ -355,7 +355,8 @@ const certifications = {
     {
       title: "Agile Requirements Foundations",
       subtitle: "- Angela Wick",
-      logo_path: "linkedin-logo.png",
+      text: "Duration: 1h 43m",
+      logo_path: "logos/linkedin-logo.png",
       certificate_link:
         "https://www.linkedin.com/learning/certificates/6566a9db73075412edb4b67a4956475bffb4c1c6701a154b5f9b1d9d85743f09?u=2150804",
       alt_name: "LinkedIn Learning Certificate",
@@ -364,7 +365,8 @@ const certifications = {
     {
       title: "Business Analysis Foundations",
       subtitle: "- Greta Blash",
-      logo_path: "linkedin-logo.png",
+      text: "Duration: 1h 25m",
+      logo_path: "logos/linkedin-logo.png",
       certificate_link:
         "https://www.linkedin.com/learning/certificates/dbe280a9a494b2e8392ac43bc3e084a9cc823e9d54de90d2fd4a620dbcb66302?u=2150804",
       alt_name: "LinkedIn Learning Certificate",
@@ -373,7 +375,8 @@ const certifications = {
     {
       title: "Customer Service: Problem-Solving and Troubleshooting",
       subtitle: "- Noah Fleming",
-      logo_path: "linkedin-logo.png",
+      text: "Duration: 35m",
+      logo_path: "logos/linkedin-logo.png",
       certificate_link:
         "https://www.linkedin.com/learning/certificates/3f89a517e91b39ed1c8da467dde718518f2c6558a2c975c14449d3e56a7c93fa?u=2150804",
       alt_name: "LinkedIn Learning Certificate",
@@ -382,7 +385,8 @@ const certifications = {
     {
       title: "Agile Foundations",
       subtitle: "- Doug Rose",
-      logo_path: "linkedin-logo.png",
+      text: "Duration: 1h 35m",
+      logo_path: "logos/linkedin-logo.png",
       certificate_link:
         "https://www.linkedin.com/learning/certificates/e4e730c501db0ff37be564ea5ab4c7f2f2f006648b80a43f5674f31f528dc4e8?u=2150804",
       alt_name: "LinkedIn Learning Certificate",
@@ -391,7 +395,8 @@ const certifications = {
     {
       title: "Business Analysis Foundations: Business Process Modeling",
       subtitle: "- Haydn Thomas",
-      logo_path: "linkedin-logo.png",
+      text: "Duration: 1h 18m",
+      logo_path: "logos/linkedin-logo.png",
       certificate_link:
         "https://www.linkedin.com/learning/certificates/d81e6f7b23060ea8b1d1eb31b59dd92d5178fcab0ec2bd95fcb5b9d2d8fa2fc8?u=2150804",
       alt_name: "LinkedIn Learning Certificate",
@@ -400,7 +405,8 @@ const certifications = {
     {
       title: "ITIL® Foundation 4 First Look",
       subtitle: "- David Pultorak",
-      logo_path: "linkedin-logo.png",
+      text: "Duration: 32m",
+      logo_path: "logos/linkedin-logo.png",
       certificate_link:
         "https://www.linkedin.com/learning/certificates/66ca6204152f5d6467b95d671932646c223ec564024ecff748bf19ce27719344?u=2150804",
       alt_name: "LinkedIn Learning Certificate",
@@ -409,7 +415,8 @@ const certifications = {
     {
       title: "Intro to Service Management with ITIL® 4",
       subtitle: "- Jason Dion",
-      logo_path: "linkedin-logo.png",
+      text: "Duration: 1h 38m",
+      logo_path: "logos/linkedin-logo.png",
       certificate_link:
         "https://www.linkedin.com/learning/certificates/0970e0f4095485f14b27061bcc8367ddaa92f7a0b61ce22f13498920a624e3d9?u=2150804",
       alt_name: "LinkedIn Learning Certificate",
@@ -418,7 +425,8 @@ const certifications = {
     {
       title: "Learning ITIL®",
       subtitle: "- David Pultorak",
-      logo_path: "linkedin-logo.png",
+      text: "Duration: 1h 38m",
+      logo_path: "logos/linkedin-logo.png",
       certificate_link:
         "https://www.linkedin.com/learning/certificates/b2f0db2a1f1f538b39f611d26fa99bf316b8de080817760251ef032f6b22a46c?u=2150804",
       alt_name: "LinkedIn Learning Certificate",
@@ -427,7 +435,8 @@ const certifications = {
     {
       title: "Business Process Improvement",
       subtitle: "- Eddie Davila",
-      logo_path: "linkedin-logo.png",
+      text: "Duration: 58m",
+      logo_path: "logos/linkedin-logo.png",
       certificate_link:
         "https://www.linkedin.com/learning/certificates/2b2f94885d54f103136cbd01d0af3694a991f6ec169fb1a6e4fed1b0f0d0d6b9?u=2150804",
       alt_name: "LinkedIn Learning Certificate",
@@ -436,7 +445,8 @@ const certifications = {
     {
       title: "Process Improvement Foundations",
       subtitle: "- Chris Croft",
-      logo_path: "linkedin-logo.png",
+      text: "Duration: 1h 18m",
+      logo_path: "logos/linkedin-logo.png",
       certificate_link:
         "https://www.linkedin.com/learning/certificates/4c6676547c3a4bdd07a7fc4fcc5f5e3f8551251ded519be713cd6476afe4f894?u=2150804",
       alt_name: "LinkedIn Learning Certificate",
@@ -445,7 +455,8 @@ const certifications = {
     {
       title: "Tips for Writing Business Emails",
       subtitle: "- Daisy Lovelace",
-      logo_path: "linkedin-logo.png",
+      text: "Duration: 35m",
+      logo_path: "logos/linkedin-logo.png",
       certificate_link:
         "https://www.linkedin.com/learning/certificates/6b9501297e1e43d9dd4af4f10307bf2ffa8d43b744197732f4d6915489e7a0f7?u=2150804",
       alt_name: "LinkedIn Learning Certificate",
@@ -454,7 +465,8 @@ const certifications = {
     {
       title: "Writing Formal Business Letters and Emails",
       subtitle: "- Tom Geller",
-      logo_path: "linkedin-logo.png",
+      text: "Duration: 36m",
+      logo_path: "logos/linkedin-logo.png",
       certificate_link:
         "https://www.linkedin.com/learning/certificates/90fa5a6f71b5d4663c16c8dac8a442e155fe7c436ad24908fe018c1cbe2a95c9?u=2150804",
       alt_name: "LinkedIn Learning Certificate",
@@ -470,8 +482,25 @@ const activities = {
       subtitle: "- Capture The Flag",
       text:
         "This is an activity that took place during 2023. This activity consisted on a Capture The Flag competition where participants had to solve a series of challenges related to cyber security. The challenges were divided into different categories such as web security, cryptography, reverse engineering, etc.",
-      logo_path: "logo-cscbe.svg",
-      images: ["activities/csc-1.png", "activities/csc-3.png"],
+      logo_path: "logos/logo-cscbe.svg",
+      media: [
+        {
+          type: "image",
+          src: "activities/CSC/csc-1.png",
+        },
+        {
+          type: "image",
+          src: "activities/CSC/csc-3.png",
+        },
+      ],
+      comments: [
+        <h1>CyberSecurity Challenge Belgium 2023</h1>,
+        <h2>Capture The Flag</h2>,
+        <h3>Duration: 48h</h3>,
+        <h3>Portfolio: 10h</h3>,
+        "This is a transversal activity that evaluated skills in different areas of cyber security. Such as web security, cryptography, reverse engineering, stenography, among others. To find different hidden “flags” in the challenges.",
+        "",
+      ],
       alt_name: "CyberSecurity Challenge Belgium",
       color_code: "#0075B4",
     },
@@ -479,19 +508,88 @@ const activities = {
       title: "Capture The Flag EPHEC",
       subtitle: "- Capture The Flag",
       text: "Capture The Flag EPHEC",
-      logo_path: "logo-cscbe.svg",
-      images: ["aarhus-logo.png", "codeInLogo.png", "github_logo.png"],
-      alt_name: "CyberSecurity Challenge Belgium",
-      color_code: "#0075B4",
+      logo_path: "logos/ephec-tech-logo-white.svg",
+      media: [
+        {
+          type: "image",
+          src: "activities/CTF-EPHEC/ctf-ephec-1.png",
+        },
+        {
+          type: "image",
+          src: "activities/CTF-EPHEC/ctf-doc.jpg",
+        },
+      ],
+      comments: [
+        "Great event with engaging challenges.",
+        "Learned a lot about web security vulnerabilities.",
+      ],
+      alt_name: "Capture The Flag EPHEC",
+      color_code: "#1C1C1C",
     },
     {
-      title: "Capture The Flag EPHEC",
-      subtitle: "- Capture The Flag",
-      text: "Capture The Flag EPHEC",
-      logo_path: "logo-cscbe.svg",
-      images: ["aarhus-logo.png", "codeInLogo.png", "github_logo.png"],
-      alt_name: "CyberSecurity Challenge Belgium",
-      color_code: "#0075B4",
+      title: "LAN EPHEC",
+      subtitle: "- LAN Organisation & Participation",
+      text:
+        "LAN organised at EPHEC. This event was a LAN party where participants could play video games together. The event was organised by IT professor Jonathan Noël and IT students of EPHEC: Dudley de Henau, Antoine Moens Pennewaert & moi Carlos Iglesias Garcia.",
+      logo_path: "logos/ephec-tech-logo-white.svg",
+      media: [
+        {
+          type: "image",
+          src: "activities/LAN-EPHEC/lan-doc.jpg",
+        },
+      ],
+      comments: [
+        "Great event with engaging challenges.",
+        "Learned a lot about web security vulnerabilities.",
+      ],
+      alt_name: "LAN EPHEC",
+      color_code: "#1C1C1C",
+    },
+    {
+      title: "Luminus Generation Zero",
+      subtitle: "Bootcamp",
+      text: "Young IT Track - Luminus Generation Zero",
+      logo_path: "logos/luminus-logo.jpg",
+      media: [
+        {
+          type: "video",
+          src: "https://www.youtube.com/embed/ZYWTAIliA9Y?si=vEKTiY-lS4VoFEe-",
+        },
+      ],
+      comments: [
+        <h1>Luminus Generation Zero</h1>,
+        <h2>Bootcamp</h2>,
+        <h3>Duration: 10h</h3>,
+        <h3>Portfolio: 10h</h3>,
+        "Great event with engaging challenges.",
+        "Learned a lot about web security vulnerabilities.",
+      ],
+      alt_name: "Luminus Generation Zero",
+      color_code: "#FFF",
+    },
+    {
+      title: "Kot Carrefour",
+      subtitle: "Intercultural Activities",
+      text:
+        "This is an ASBL project that focuses on the interculturation of young people and families from different countries. Different activities are organised during the academic year by students",
+      logo_path: "logos/kotcarrefour-logo.png",
+      media: [
+        {
+          type: "instagram-post",
+          src:
+            "https://www.instagram.com/p/C41W9SooHZ8/?utm_source=ig_embed&amp;utm_campaign=loading",
+        },
+      ],
+      comments: [
+        <h1>Luminus Generation Zero</h1>,
+        <h2>Bootcamp</h2>,
+        <h3>Duration: 10h</h3>,
+        <h3>Portfolio: 10h</h3>,
+        "Great event with engaging challenges.",
+        "Learned a lot about web security vulnerabilities.",
+      ],
+      alt_name: "Luminus Generation Zero",
+      color_code: "#FFF",
     },
   ],
 };
@@ -505,21 +603,21 @@ const experience = {
   header_image_path: "experience.svg",
   sections: [
     /*{
-      title: "Work",
-      work: true,
-      experiences: [
-        {
-          title: "Android Developer",
+            title: "Work",
+          work: true,
+          experiences: [
+          {
+            title: "Android Developer",
           company: "FreeCopy Pvt. Ltd.",
           company_url: "https://www.linkedin.com/company/freecopy/about/",
           logo_path: "freecopy_logo.png",
           duration: "Nov 2017 - Dec 2017",
           location: "Ahmedabad, Gujarat",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+          "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
           color: "#fc1f20",
         },
-      ],
+          ],
     },*/
     {
       title: "Internships",
@@ -541,45 +639,45 @@ const experience = {
           color: "#000000",
         },
         /*{
-          title: "Data Science Research Intern",
+            title: "Data Science Research Intern",
           company: "Delhivery Pvt. Ltd.",
           company_url: "https://www.delhivery.com/",
           logo_path: "delhivery_logo.png",
           duration: "May 2019 - Sept 2019",
           location: "Gurgaon, Haryana",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+          "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
           color: "#ee3c26",
         },
-        {
-          title: "Data Science Intern",
+          {
+            title: "Data Science Intern",
           company: "Intel Indexer LLC",
           company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
+          "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
           logo_path: "intel_logo.jpg",
           duration: "Nov 2018 - Dec 2018",
           location: "Work From Home",
           description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+          "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
           color: "#0071C5",
         },*/
       ],
     },
     /*{
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Google Explore ML Facilitator",
+            title: "Volunteerships",
+          experiences: [
+          {
+            title: "Google Explore ML Facilitator",
           company: "Google",
           company_url: "https://about.google/",
           logo_path: "google_logo.png",
           duration: "June 2019 - April 2020",
           location: "Hyderabad, Telangana",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+          "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
           color: "#4285F4",
         },
-      ],
+          ],
     },*/
   ],
 };
@@ -601,25 +699,25 @@ const publicationsHeader = {
 const publications = {
   data: [
     /*{
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
+            id: "neuro-symbolic-sudoku-solver",
+          name: "Neuro-Symbolic Sudoku Solver",
+          createdAt: "2023-07-02T00:00:00Z",
+          description: "Paper published in KDD KiML 2023",
+          url: "https://arxiv.org/abs/2307.00653",
     },
-    {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
+          {
+            id: "mdp-diffusion",
+          name: "MDP-Diffusion",
+          createdAt: "2023-09-19T00:00:00Z",
+          description: "Blog published in Paperspace",
+          url: "https://blog.paperspace.com/mdp-diffusion/",
     },
-    {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
+          {
+            id: "consistency-models",
+          name: "Consistency Models",
+          createdAt: "2023-10-12T00:00:00Z",
+          description: "Blog published in Paperspace",
+          url: "https://blog.paperspace.com/consistency-models/",
     },*/
   ],
 };

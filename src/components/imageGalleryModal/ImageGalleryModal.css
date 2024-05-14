@@ -18,7 +18,6 @@
   width: 100vw;
   height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   z-index: 1050;
@@ -47,6 +46,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: 20px;
 }
 
 .modal-close-btn {
@@ -57,4 +57,44 @@
   border: "2px solid #FFF";
   border-radius: "5px";
   cursor: "pointer";
+}
+
+.comments-column {
+  flex: 1; /* Less space for comments */
+  max-width: 50%; /* Adjust the width based on your preference */
+  min-width: 200px; /* Ensures readability of comments */
+
+  overflow-y: auto;
+  margin-top: 5%;
+  margin-right: 5%;
+  padding: 20px; /* Provide padding to space out the text */
+}
+
+.image-column {
+  flex: 2; /* Gives more space to images */
+  max-width: 50%; /* Adjust the width based on your preference */
+  min-width: 300px; /* Ensures images are not too small */
+  height: 90%; /* Adjust the height based on your preference */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .modal-backdrop {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .image-column,
+  .comments-column {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .comments-column {
+    height: 50vh;
+  }
 }

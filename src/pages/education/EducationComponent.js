@@ -4,29 +4,14 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
-import Activities from "../../containers/activities/Activities";
-import ImageGalleryModal from "../../components/imageGalleryModal/ImageGalleryModal";
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
 import EducationImg from "./EducationImg";
 import { competitiveSites } from "../../portfolio";
-import { certifications, activities } from "../../portfolio";
+import { certifications } from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
 
 class Education extends Component {
-  state = {
-    modalOpen: false,
-    modalImages: [],
-  };
-
-  openModal = (images) => {
-    this.setState({ modalOpen: true, modalImages: images });
-  };
-
-  closeModal = () => {
-    this.setState({ modalOpen: false, modalImages: [] });
-  };
-
   render() {
     const theme = this.props.theme;
     return (
@@ -57,19 +42,9 @@ class Education extends Component {
           {certifications.certifications.length > 0 ? (
             <Certifications theme={this.props.theme} />
           ) : null}
-
-          {activities.activities.length > 0 ? (
-            <Activities theme={theme} openModal={this.openModal} />
-          ) : null}
         </div>
         <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
-        <ImageGalleryModal
-          isOpen={this.state.modalOpen}
-          images={this.state.modalImages}
-          handleClose={this.closeModal}
-          theme={this.props.theme} // Ensure the theme is passed here
-        />
       </div>
     );
   }
