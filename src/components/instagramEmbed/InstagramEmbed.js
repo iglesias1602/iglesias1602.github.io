@@ -37,9 +37,7 @@ const InstagramEmbed = ({ src }) => {
         maxWidth: "450px",
         minWidth: "326px",
         padding: 0,
-        width: "98.375%",
         width: "-webkit-calc(100% - 2px)",
-        width: "calc(100% - 2px)",
       }}
     >
       <div style={{ padding: "16px" }}>

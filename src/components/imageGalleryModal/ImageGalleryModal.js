@@ -43,7 +43,7 @@ function ImageGalleryModal({
         setCurrentMedia(
           <img
             src={imagePath}
-            alt="Gallery Image"
+            alt="Gallery"
             style={{ maxWidth: "100%", maxHeight: "80%" }}
           />
         );
@@ -51,7 +51,7 @@ function ImageGalleryModal({
         setCurrentMedia(
           <img
             src={defaultImage}
-            alt="Default Image"
+            alt="Default"
             style={{ maxWidth: "100%", maxHeight: "80%" }}
           />
         );
