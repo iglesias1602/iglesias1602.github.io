@@ -537,6 +537,18 @@ const activities = {
           type: "image",
           src: "activities/LAN-EPHEC/lan-doc.jpg",
         },
+        {
+          type: "image",
+          src: "activities/LAN-EPHEC/lan-1.png",
+        },
+        {
+          type: "image",
+          src: "activities/LAN-EPHEC/lan-2.jpg",
+        },
+        {
+          type: "image",
+          src: "activities/LAN-EPHEC/lan-3.png",
+        },
       ],
       comments: [
         "Great event with engaging challenges.",

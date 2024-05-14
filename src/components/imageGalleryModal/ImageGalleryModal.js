@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./ImageGalleryModal.css";
 import defaultImage from "../../assests/images/loading.svg"; // Update the path according to where your SVG is stored
-import InstagramEmbed from "../instagramEmbed/InstagramEmbed"; // Import the InstagramEmbed component
+import InstagramPost from "../instagramPost/InstagramPost"; // Import the InstagramPost component
+import { YouTubeEmbed } from "react-social-media-embed";
 
 function ImageGalleryModal({
   isOpen,
@@ -26,16 +27,7 @@ function ImageGalleryModal({
     if (item.type === "video") {
       // Directly set the iframe as current media
       setCurrentMedia(
-        <iframe
-          width="100%"
-          height="350px"
-          src={item.src}
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-          title="Embedded YouTube Video"
-        />
+        <YouTubeEmbed url={item.src} style={{ height: "500px" }} />
       );
     } else if (item.type === "image") {
       try {
@@ -57,7 +49,7 @@ function ImageGalleryModal({
         );
       }
     } else if (item.type === "instagram-post") {
-      setCurrentMedia(<InstagramEmbed src={item.src} />);
+      setCurrentMedia(<InstagramPost src={item.src} />);
     }
   }, [currentIndex, media, isOpen]); // React on changes to current index, media array, or isOpen
 
