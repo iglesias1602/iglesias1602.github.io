@@ -793,6 +793,102 @@ const contactPageData = {
   },
 };
 
+const portfolioHeaders = ["Name", "Type", "Duration", "Portfolio", ""];
+
+const portfolioRows = [
+  [
+    "Agile Requirements Foundations",
+    "LinkedIn - Agile Certification",
+    "1h 43m",
+    "1h 43m",
+    "",
+  ],
+  [
+    "Agile Foundations",
+    "LinkedIn - Agile Certification",
+    "1h 35m",
+    "1h 35m",
+    "",
+  ],
+  [
+    "Business Analysis Foundations",
+    "LinkedIn - BA Certification",
+    "1h 25m",
+    "1h 25m",
+    "",
+  ],
+  [
+    "Business Analysis Foundations: Business Process Modeling",
+    "LinkedIn - BA Certification",
+    "1h 18m",
+    "1h 18m",
+    "",
+  ],
+  [
+    "Business Improvement Foundations",
+    "LinkedIn - BA Certification",
+    "1h 18m",
+    "1h 18m",
+    "",
+  ],
+  [
+    "Business Process Improvement",
+    "LinkedIn - BA Certification",
+    "58m",
+    "58m",
+    "",
+  ],
+  [
+    "ITIL® Foundation 4 First Look",
+    "LinkedIn - BA Certification",
+    "32m",
+    "32m",
+    "",
+  ],
+  [
+    "Intro to Service Management with ITIL® 4",
+    "LinkedIn - BA Certification",
+    "1h 38m",
+    "1h 38m",
+    "",
+  ],
+  ["Learning ITIL®", "LinkedIn - BA Certification", "1h 38m", "1h 38m", ""],
+  [
+    "Customer Service: Problem-Solving and Troubleshooting",
+    "LinkedIn - Certification",
+    "35m",
+    "35m",
+    "",
+  ],
+  [
+    "Tips for Writing Business Emails",
+    "LinkedIn - Certification",
+    "35m",
+    "35m",
+    "",
+  ],
+  [
+    "Writing Formal Business Letters and Emails",
+    "LinkedIn - Certification",
+    "36m",
+    "36m",
+    "",
+  ],
+  ["Cyber Security Challenge Belgium", "Capture The Flag", "48h", "10h", ""],
+  ["CTF EPHEC 2022", "Capture The Flag", "10h 30m", "10h", ""],
+  ["LAN EPHEC", "Organisation - Servers, Network setup", "7h", "7h", ""],
+  ["Luminus Generation Zero", "Bootcamp", "10h 15m", "9h", ""],
+  ["LAN EPHEC", "Soft Skills - Participation", "9h", "9h", ""],
+  [
+    "Art Week - Kot Carrefour",
+    "Soft Skills - Organisation & Participation",
+    "2h 30m",
+    <b>1h</b>,
+    "Soft Skills Hours Completed",
+  ],
+  [<b>Total</b>, "", <b>101h 6m</b>, <b>65h 51m</b>, ""],
+];
+
 export {
   settings,
   seo,
@@ -808,4 +904,6 @@ export {
   publicationsHeader,
   publications,
   contactPageData,
+  portfolioHeaders,
+  portfolioRows,
 };

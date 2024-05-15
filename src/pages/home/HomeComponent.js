@@ -7,6 +7,7 @@ import ImageGalleryModal from "../../components/imageGalleryModal/ImageGalleryMo
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import { activities } from "../../portfolio";
+import PortfolioTable from "../../containers/portfolioTable/PortfolioTable";
 
 class Home extends Component {
   state = {
@@ -55,6 +56,7 @@ class Home extends Component {
         {activities.activities.length > 0 ? (
           <Activities theme={theme} openModal={this.openModal} />
         ) : null}
+        <PortfolioTable theme={theme} />
         <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
       </div>
