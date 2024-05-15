@@ -9,6 +9,8 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 20px; /* Add space between the cards */
+  padding: 20px; /* Add padding to avoid touching the screen edges */
 }
 
 @media (max-width: 1380px) {
@@ -18,11 +20,21 @@
 }
 
 @media (max-width: 768px) {
-  .acts-body-div {
-    flex-direction: column;
-  }
-
   .acts-header {
     font-size: 30px;
+  }
+}
+
+/* Responsive styles for activity cards */
+@media (max-width: 1200px) {
+  .acts-body-div {
+    justify-content: space-around; /* Adjust spacing on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .acts-body-div {
+    flex-direction: column;
+    align-items: center; /* Center cards in column layout */
   }
 }

@@ -1,6 +1,7 @@
 .act-card {
   width: 30%;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -115,10 +116,13 @@
 }
 
 @media (max-width: 1380px) {
+  .act-card {
+    width: 40%;
+  }
 }
 
 @media (max-width: 768px) {
   .act-card {
-    width: 100%;
+    width: 70%;
   }
 }

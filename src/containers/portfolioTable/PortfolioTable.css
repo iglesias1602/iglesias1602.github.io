@@ -3,26 +3,26 @@
   line-height: 1.1;
   font-family: "Google Sans Regular";
   text-align: center;
+  color: var(--text-color); /* Use theme text color */
+  margin-top: 20px;
 }
 
 .custom-table-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%; /* Ensure it takes full width */
+  overflow-x: auto; /* Allow horizontal scrolling */
 }
 
 .custom-table-container {
   margin: 20px 0;
   padding: 20px;
   width: 80%;
+  max-width: 100%; /* Ensure it does not exceed the screen width */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.custom-table-container h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 1.5rem;
+  background-color: var(--body-bg); /* Use theme body background */
 }
 
 .custom-table {
@@ -49,4 +49,32 @@
 
 .custom-table tbody tr:hover {
   background-color: #f1f1f1;
+}
+
+@media (max-width: 768px) {
+  .portfolio-header {
+    font-size: 30px;
+  }
+
+  .custom-table-container {
+    width: 100%; /* Ensure it takes full width on smaller screens */
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .custom-table th,
+  .custom-table td {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-table-container {
+    padding: 5px; /* Further reduce padding for very small screens */
+  }
+
+  .custom-table th,
+  .custom-table td {
+    padding: 5px;
+    font-size: 12px; /* Reduce font size for smaller screens */
+  }
 }

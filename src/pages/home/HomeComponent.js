@@ -8,6 +8,7 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import { activities } from "../../portfolio";
 import PortfolioTable from "../../containers/portfolioTable/PortfolioTable";
+import "../../components/activitiesCard/ActivitiesCard.css"; // Import the CSS file
 
 class Home extends Component {
   state = {
