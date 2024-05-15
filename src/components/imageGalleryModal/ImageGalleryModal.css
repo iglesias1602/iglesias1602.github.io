@@ -92,10 +92,13 @@
   .comments-column {
     width: 100%;
     max-width: 100%;
-    height: auto;
+  }
+
+  .image-column {
+    max-height: 50%;
   }
 
   .comments-column {
-    height: 50vh;
+    height: 60%;
   }
 }

@@ -619,7 +619,7 @@ const activities = {
         <h1>Art Week - Kot Carrefour</h1>,
         <h2>Activity organisation & participation</h2>,
         <h3>Duration: 2h30m</h3>,
-        <h3>Portfolio: 2h30m</h3>,
+        <h3>Portfolio: 1h</h3>,
         "This activity was organised in a kot which belongs to an ASBL Kot Carrefour VIncent Lebbe.",
         "The project of the kot is to make a place where people from different countries can meet and share their culture.",
         "With my team of organisers we decided that during the Art Week where different activities were organised. For the activity I organised we decided to make it about music.",
