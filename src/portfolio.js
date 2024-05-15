@@ -878,7 +878,13 @@ const portfolioRows = [
   ["CTF EPHEC 2022", "Capture The Flag", "10h 30m", "10h", ""],
   ["LAN EPHEC", "Organisation - Servers, Network setup", "7h", "7h", ""],
   ["Luminus Generation Zero", "Bootcamp", "10h 15m", "9h", ""],
-  ["LAN EPHEC", "Soft Skills - Participation", "9h", "9h", ""],
+  [
+    "LAN EPHEC",
+    "Soft Skills - Participation",
+    "9h",
+    "9h",
+    "Soft Skills Hours Completed",
+  ],
   [
     "Art Week - Kot Carrefour",
     "Soft Skills - Organisation & Participation",
