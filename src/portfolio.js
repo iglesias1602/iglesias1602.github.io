@@ -499,7 +499,10 @@ const activities = {
         <h3>Duration: 48h</h3>,
         <h3>Portfolio: 10h</h3>,
         "This is a transversal activity that evaluated skills in different areas of cyber security. Such as web security, cryptography, reverse engineering, stenography, among others. To find different hidden “flags” in the challenges.",
-        "",
+        "This required to use a lot of creativity and our knowledge to solve the challenges. My team and I never gave up until the end of the activity, and even though we didn't win, we were able to know our different strengths, in my case: Being strong at trying to find creative ways for the challenges.",
+        "I admit that it was pretty difficult, but it was a great experience that I would like to repeat in the future.",
+        "Something that I found pretty difficult was challenges that required a lot of theorical knowledge for some mathematical problems, but in problems like stenography I proved to be really good and this helped us to get more points.",
+        "Overall, I was able to learn that I can trust my friends/teammates and that together we can use our different sets of knowledges to success in what we propose to do.",
       ],
       alt_name: "CyberSecurity Challenge Belgium",
       color_code: "#0075B4",
@@ -520,6 +523,10 @@ const activities = {
         },
       ],
       comments: [
+        <h1>CTF EPHEC</h1>,
+        <h2>Capture The Flag</h2>,
+        <h3>Duration: 10h30h</h3>,
+        <h3>Portfolio: 10h</h3>,
         "Great event with engaging challenges.",
         "Learned a lot about web security vulnerabilities.",
       ],
@@ -530,7 +537,7 @@ const activities = {
       title: "LAN EPHEC",
       subtitle: "- LAN Organisation & Participation",
       text:
-        "LAN organised at EPHEC. This event was a LAN party where participants could play video games together. The event was organised by IT professor Jonathan Noël and IT students of EPHEC: Dudley de Henau, Antoine Moens Pennewaert & moi Carlos Iglesias Garcia.",
+        "LAN organised at EPHEC. This event was a LAN party where participants could play video games together. The event was organised by IT professor Jonathan Noël and IT students of EPHEC: Dudley de Henau, Antoine Moens Pennewaert & me Carlos Iglesias Garcia.",
       logo_path: "logos/ephec-tech-logo-white.svg",
       media: [
         {
@@ -571,17 +578,17 @@ const activities = {
       comments: [
         <h1>Luminus Generation Zero</h1>,
         <h2>Bootcamp</h2>,
-        <h3>Duration: 10h</h3>,
-        <h3>Portfolio: 10h</h3>,
-        "Great event with engaging challenges.",
-        "Learned a lot about web security vulnerabilities.",
+        <h3>Duration: 10h15m</h3>,
+        <h3>Portfolio: 9h</h3>,
+        "This was my first experience with a bootcamp. It was focused on trying to find a solution for an imaginary problem.",
+        "In teams of 6",
       ],
       alt_name: "Luminus Generation Zero",
       color_code: "#FFF",
     },
     {
       title: "Kot Carrefour",
-      subtitle: "Intercultural Activities",
+      subtitle: "Art Week - Organisation & Participation",
       text:
         "This is an ASBL project that focuses on the interculturation of young people and families from different countries. Different activities are organised during the academic year by students",
       logo_path: "logos/kotcarrefour-logo.png",
