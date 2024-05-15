@@ -65,9 +65,10 @@
   min-width: 200px; /* Ensures readability of comments */
 
   overflow-y: auto;
-  margin-top: 5%;
+  margin-top: 1%;
   margin-right: 5%;
   padding: 20px; /* Provide padding to space out the text */
+  text-align: justify;
 }
 
 .image-column {
