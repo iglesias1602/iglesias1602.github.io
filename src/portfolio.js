@@ -2,14 +2,14 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
   title: "Carlos Iglesias' Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Knowledge of programming, security, operating systems and virtualisation. Thanks to my problem-solving, troubleshooting and communication skills, I can successfully create innovative technological solutions.",
   og: {
     title: "Carlos Iglesias Portfolio",
     type: "website",
@@ -21,9 +21,9 @@ const seo = {
 const greeting = {
   title: "Carlos Iglesias",
   logo_name: "Carlos Iglesias",
-  nickname: "iglesias1602",
+  nickname: "@iglesias1602",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Knowledge of programming, security, operating systems and virtualisation. Thanks to my problem-solving, troubleshooting and communication skills, I can successfully create innovative technological solutions.",
   resumeLink: "https://drive.proton.me/urls/VK27JXGECM#ZcbLLUkcLA03",
   portfolio_repository:
     "https://github.com/iglesias1602/iglesias1602.github.io",
