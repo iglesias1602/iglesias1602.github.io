@@ -1,12 +1,7 @@
 import React from "react";
 import { Table } from "react-bootstrap";
 import "./PortfolioTable.css"; // Import the CSS file
-import {
-  portfolioHeaders,
-  portfolioRows,
-  tableHeaders,
-  tableRows,
-} from "../../portfolio"; // Import table data
+import { portfolioHeaders, portfolioRows } from "../../portfolio"; // Import table data
 
 const PortfolioTable = ({ theme }) => {
   return (
