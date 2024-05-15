@@ -123,6 +123,6 @@
 
 @media (max-width: 768px) {
   .act-card {
-    width: 70%;
+    width: 100%;
   }
 }
