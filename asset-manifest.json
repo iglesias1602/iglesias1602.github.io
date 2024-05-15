@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.be4fe321.css",
-    "main.js": "/static/js/main.d3e71038.js",
+    "main.css": "/static/css/main.ca938d79.css",
+    "main.js": "/static/js/main.9d3569fe.js",
     "static/media/portfolio.gif": "/static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/lan-1.png": "/static/media/lan-1.5abe2911d03b011bc2fd.png",
     "static/media/lan-3.png": "/static/media/lan-3.745e862094d8cecf0e48.png",
@@ -12,6 +12,7 @@
     "static/media/csc-1.png": "/static/media/csc-1.5bce08f30a27b9ee347d.png",
     "static/media/ctf-ephec-1.png": "/static/media/ctf-ephec-1.6caf3c7a710accd2478c.png",
     "static/media/csc-3.png": "/static/media/csc-3.d16966c577ee83d4fa55.png",
+    "static/media/luminus-1.jpg": "/static/media/luminus-1.10f431c18c77bc1338b2.jpg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
     "static/media/csc-2.jpg": "/static/media/csc-2.f04cb05c8ece48dab8a2.jpg",
     "static/media/tiktok_logo.png": "/static/media/tiktok_logo.bf41765c122d4b0f3fee.png",
@@ -87,11 +88,11 @@
     "static/media/loading.svg": "/static/media/loading.ac6e18dd0ae3aaa27317aacff77d55c0.svg",
     "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
-    "main.be4fe321.css.map": "/static/css/main.be4fe321.css.map",
-    "main.d3e71038.js.map": "/static/js/main.d3e71038.js.map"
+    "main.ca938d79.css.map": "/static/css/main.ca938d79.css.map",
+    "main.9d3569fe.js.map": "/static/js/main.9d3569fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.be4fe321.css",
-    "static/js/main.d3e71038.js"
+    "static/css/main.ca938d79.css",
+    "static/js/main.9d3569fe.js"
   ]
 }
